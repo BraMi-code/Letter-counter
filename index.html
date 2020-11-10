@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Letter Counter</title>
+</head>
+<body class="backgr-col">
+<div class="writeWrd">
+    <label>Click to count your word characters!</label>
+    <input type="text" id=text>
+    <button id="submit">Show Word</button>
+    <p id="show"></p>
+</div>
+<div class="letCounter">
+    <h3>Letter counter</h3>
+    <textarea name="description" id="desc" onkeyup="startCount(this.value)" cols="30" rows="10" maxlength="200" placeholder="Write your text here..."></textarea>
+</div>
+<div class="letCounter">
+    <span id="counter"></span>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
